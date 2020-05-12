@@ -7,11 +7,11 @@
   roles:
 # install jdk 
   - name: install jdk
-    role: java
+    role: krishkakumani/Java
     tags:
       - java
 # install httpd
   - name: install httpd services
-    role: httpd
+    role: krishkakumani/httpd
     tags:
       - httpd
