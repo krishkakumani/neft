@@ -6,12 +6,12 @@
   become: true
   roles:
 # install jdk 
-  - name: install jdk
+  - name: install httpd
     role: httpd
     tags:
       - httpd
 # install httpd
-  - name: install httpd services
+  - name: install Java services
     role: Java
     tags:
       - Java
