@@ -1,0 +1,7 @@
+- src: git+https://github.com/krishkakumani/httpd.git
+  version: master
+  scm: git
+
+- src: git+https://github.com/krishkakumani/Java.git
+  version: master
+  scm: git
