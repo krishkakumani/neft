@@ -9,7 +9,7 @@
   - name: install jdk
     role: java
     tags:
-      - jdk
+      - java
 # install httpd
   - name: install httpd services
     role: httpd
